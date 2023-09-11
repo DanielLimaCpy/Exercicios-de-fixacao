@@ -1,0 +1,10 @@
+import math
+ang = float(input("digite um angulo"))
+rang = ( ang*math.pi/180)
+print("Seno: ", math.sin(rang) )
+print("co-seno: ", math.cos(rang) )
+print("tangente: ", math.tan(rang) )
+print("co-secante: ", 1 / math.sin(rang) )
+print("secante: ", 1 / math.cos(rang) )
+print("cotangente: ", 1 / math.tan(rang) )
+print("")
